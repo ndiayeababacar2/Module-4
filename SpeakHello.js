@@ -2,7 +2,7 @@
 
 var helloSpeaker = {};
   
-var names = "Paula";
+helloSpeaker.names = "Paula";
 
 var speakWord ="hello";
   
