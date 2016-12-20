@@ -1,20 +1,25 @@
 (function (window) {
 
-var helloSpeaker = {};
-  
-helloSpeaker.names = "Paula";
 
-var speakWord ="hello";
-  
-helloSpeaker.speak = function() {
+var yaakovGreeter = {};
 
-console.log(speakWord + " " + names);
-  console.log("test");
-  
+yaakovGreeter.name = "Yaajov";
+
+var greeting ="hello"
+
+yaakovGreeter.sayhello = function() {
+
+console.log(greeting + yaakovGreeter.name);
 
 }
 
-window.helloSpeaker=helloSpeaker;
+window.yaakovGreeter=yaakovGreeter
 
 }) (window);
+
+
+
+
+
+}) ();
  
