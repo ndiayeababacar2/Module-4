@@ -1,11 +1,10 @@
 (function (window) {
 
-
 var yaakovGreeter = {};
 
 yaakovGreeter.name = "Yaajov";
 
-var greeting ="hello"
+var greeting ="hello";
 
 yaakovGreeter.sayhello = function() {
 
@@ -17,9 +16,4 @@ window.yaakovGreeter=yaakovGreeter;
 
 }) (window);
 
-
-
-
-
-}) ();
  
