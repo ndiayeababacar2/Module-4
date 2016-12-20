@@ -1,12 +1,22 @@
 
-var names = "Yaakov";
-var speakWord = "Hello";
 
-var helloSpeaker  = function () {
+(function (window) {
 
-  console.log(speakWord + " " + names)};
 
-helloSpeaker();
+var yaakovGreeter = {};
 
+yaakovGreeter.name = "Yaajov";
+
+var greeting ="hello"
+
+yaakovGreeter.sayhello = function() {
+
+console.log(greeting + yaakovGreeter.name);
+
+}
+
+window.yaakovGreeter=yaakovGreeter
+
+}) (window);
 
 
