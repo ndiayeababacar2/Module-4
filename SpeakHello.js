@@ -13,7 +13,7 @@ console.log(greeting + yaakovGreeter.name);
 
 }
 
-window.yaakovGreeter=yaakovGreeter
+window.yaakovGreeter=yaakovGreeter;
 
 }) (window);
 
