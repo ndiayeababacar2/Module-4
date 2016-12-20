@@ -8,7 +8,7 @@ var greeting ="hello";
 
 yaakovGreeter.sayhello = function() {
 
-console.log(greeting + yaakovGreeter.name);
+console.log(greeting +""+ yaakovGreeter.name);
 
 }
 
