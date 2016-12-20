@@ -15,3 +15,4 @@ console.log(speakWord + " " + names);
 window.helloSpeaker=helloSpeaker;
 
 }) (window);
+ 
