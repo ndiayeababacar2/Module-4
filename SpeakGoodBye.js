@@ -1,18 +1,6 @@
-(function (window) {
-
-var yaakovGreeter = {};
-
-yaakovGreeter.name = "John";
-
-var greeting ="Good By";
-
-yaakovGreeter.sayhello = function() {
-
-console.log(greeting + yaakovGreeter.name);
-
-}
-
-window.yaakovGreeter=yaakovGreeter;
-
-}) (window);
-
+(function(window){
+var byeSpeaker = {};
+var speakWord = "Good Bye";
+byeSpeaker.speak = function (name) {console.log(speakWord + " " + name);}
+window.byeSpeaker= byeSpeaker;
+})(window);
