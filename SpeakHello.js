@@ -9,6 +9,8 @@ var speakWord ="hello";
 helloSpeaker.speak = function() {
 
 console.log(speakWord + " " + names);
+  console.log("test");
+  
 
 }
 
