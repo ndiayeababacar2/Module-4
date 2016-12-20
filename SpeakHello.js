@@ -2,11 +2,11 @@
 var names = "Yaakov";
 var speakWord = "Hello";
 
-var helloSpeaker.speak  = function (names) {
+var helloSpeaker  = function () {
 
 console.log(speakWord + " " + names);
 
-}
+};
 
 window.helloSpeaker.speak= helloSpeaker;
 
