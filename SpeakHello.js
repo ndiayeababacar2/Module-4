@@ -10,6 +10,6 @@ console.log(speakWord + " " + names);
 
 }
 
-(window.helloSpeaker.speak = helloSpeaker;
+window.helloSpeaker.speak = helloSpeaker;
 
-})((window);
+})(window);
